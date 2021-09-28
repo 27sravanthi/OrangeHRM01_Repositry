@@ -11,7 +11,7 @@ public class Add_Nationalities_parameters {
 	WebDriver driver;
 	String URL="https://opensource-demo.orangehrmlive.com/";
 	String Username="Admin", Password="admin123";
-	String Nationality="Indian123";
+	String Nationality="Indian12345";
 	
 	public   WebElement findElement(By by) throws Exception 
 	{
