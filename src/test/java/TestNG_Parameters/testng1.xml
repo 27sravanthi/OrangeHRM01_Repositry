@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test thread-count="5" name="Test1">
+  <parameter name="Browser1" value="Chrome"/>
+    <parameter name="Username" value="Admin"/>
+    <parameter name="Password" value="admin123"/>
+   <parameter name="JobTitle" value="Designer"/>
+   <parameter name="JobDiscription" value="Designer dicription"/>
+ 
+    <classes>
+      <class name="TestNG_Parameters.Add_Jobs2_BeforeAndAfterTest2_parameter"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test2">
+  <parameter name="Browser1" value="Chrome"/>
+    <parameter name="Username" value="Admin"/>
+    <parameter name="Password" value="admin123"/>
+   <parameter name="JobTitle" value="Designer1"/>
+   <parameter name="JobDiscription" value="Designer dicription1"/>
+ 
+    <classes>
+      <class name="TestNG_Parameters.Add_Jobs2_BeforeAndAfterTest2_parameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
