@@ -12,7 +12,7 @@ public class Add_Nationalities_parameters_static {
 	static WebDriver driver;
 	static String URL="https://opensource-demo.orangehrmlive.com/";
 	static String Username="Admin", Password="admin123";
-	static String Nationality="Mexican123";
+	static String Nationality="Mexican12345";
 	
 	public static WebElement findElement(By by) throws Exception 
 	{
